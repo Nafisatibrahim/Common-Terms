@@ -16,27 +16,47 @@ header {
     text-align: center;
 }
 
-nav ul {
+.container {
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+aside input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+aside nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
 }
 
-nav ul li {
-    margin: 0 10px;
+aside nav ul li {
+    margin: 10px 0;
 }
 
-nav ul li a {
+aside nav ul li a {
     color: white;
     text-decoration: none;
 }
 
+main {
+    flex: 1;
+    padding: 20px;
+}
+
 section {
     padding: 20px;
-    margin: 20px auto;
-    width: 80%;
+    margin-bottom: 20px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -50,4 +70,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+mark {
+    background-color: yellow;
+    font-weight: bold;
 }
