@@ -33,13 +33,15 @@ header {
     width: 3cm;
     height: 3cm;
     border-radius: 50%;
+    object-fit: cover; /* Maintain aspect ratio within the box */
+    image-rendering: crisp-edges; /* Attempt to sharpen video display */
+    image-rendering: -webkit-optimize-contrast; /* Browser-specific hint for high-quality display */
 }
 
 /* Center the title and subtitle in the header */
 .header-center {
     flex: 1;
     text-align: center;
-    margin-left: -3cm; /* Adjusts position to be closer to center */
 }
 
 .header-center h1 {
@@ -109,3 +111,4 @@ mark {
     background-color: yellow;
     font-weight: bold;
 }
+
