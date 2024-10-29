@@ -30,16 +30,17 @@ aside {
     align-items: flex-start;
 }
 
-aside h2 {
-    margin: 0 0 10px; /* Add spacing below the name */
+aside h2.name {
     font-size: 1.2em;
     color: #f4f4f4;
+    margin: 0 0 10px; /* Space below the name */
 }
 
-aside video {
-    width: 100%;
+aside video.logo-video {
+    width: 100%;       /* Full width of sidebar */
+    max-width: 150px;  /* Set a maximum width for smaller size */
     border-radius: 5px;
-    margin-bottom: 20px; /* Space between the video and search bar */
+    margin-bottom: 20px; /* Space below the video */
 }
 
 aside input[type="text"] {
