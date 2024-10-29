@@ -22,7 +22,7 @@ header {
 
 aside {
     width: 200px;
-    padding: 20px;
+    padding: 0; /* Remove padding to make it flush with the top */
     background-color: #333;
     color: white;
     display: flex;
@@ -33,20 +33,20 @@ aside {
 aside h2.name {
     font-size: 1.2em;
     color: #f4f4f4;
-    margin: 0 0 10px; /* Space below the name */
+    margin: 10px 0 10px 10px; /* Add some margin to create space from the edge */
 }
 
 aside video.logo-video {
     width: 100%;       /* Full width of sidebar */
     max-width: 150px;  /* Set a maximum width for smaller size */
     border-radius: 5px;
-    margin-bottom: 20px; /* Space below the video */
+    margin: 0 0 20px 10px; /* Space below the video and slight indent from the left */
 }
 
 aside input[type="text"] {
-    width: 100%;
+    width: calc(100% - 20px); /* Adjust width to account for margin */
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 10px; /* Add margin to keep consistent spacing */
     border: none;
     border-radius: 5px;
 }
@@ -54,6 +54,7 @@ aside input[type="text"] {
 aside nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px;
 }
 
 aside nav ul li {
