@@ -12,7 +12,6 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #5c67f2;
     color: white;
     padding: 10px 20px;
@@ -31,13 +30,20 @@ header {
 }
 
 .logo-video {
-    width: 50px;
-    height: 50px;
+    width: 3cm;
+    height: 3cm;
     border-radius: 50%;
 }
 
+/* Center the title and subtitle in the header */
 .header-center {
+    flex: 1;
     text-align: center;
+    margin-left: -3cm; /* Adjusts position to be closer to center */
+}
+
+.header-center h1 {
+    margin: 0;
 }
 
 .container {
