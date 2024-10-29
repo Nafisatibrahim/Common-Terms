@@ -10,9 +10,33 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #5c67f2;
     color: white;
-    padding: 20px;
+    padding: 10px 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin: 0;
+    font-size: 1.2em;
+    color: white;
+    margin-right: 10px;
+}
+
+.logo-video {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-center {
     text-align: center;
 }
 
@@ -22,7 +46,7 @@ header {
 
 aside {
     width: 200px;
-    padding: 0; /* Remove padding to make it flush with the top */
+    padding: 20px;
     background-color: #333;
     color: white;
     display: flex;
@@ -30,23 +54,10 @@ aside {
     align-items: flex-start;
 }
 
-aside h2.name {
-    font-size: 1.2em;
-    color: #f4f4f4;
-    margin: 10px 0 10px 10px; /* Add some margin to create space from the edge */
-}
-
-aside video.logo-video {
-    width: 100%;       /* Full width of sidebar */
-    max-width: 150px;  /* Set a maximum width for smaller size */
-    border-radius: 5px;
-    margin: 0 0 20px 10px; /* Space below the video and slight indent from the left */
-}
-
 aside input[type="text"] {
-    width: calc(100% - 20px); /* Adjust width to account for margin */
+    width: 100%;
     padding: 10px;
-    margin: 10px; /* Add margin to keep consistent spacing */
+    margin-bottom: 20px;
     border: none;
     border-radius: 5px;
 }
@@ -54,7 +65,6 @@ aside input[type="text"] {
 aside nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px;
 }
 
 aside nav ul li {
