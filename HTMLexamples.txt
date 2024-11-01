@@ -1,3 +1,23 @@
 HTML examples: https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstQ0QwMTAxRU4tU2tpbGxzTmV0d29yay9SZWFkaW5ncy9Nb2R1bGUlMjAyL0NvbW1vbi1IVE1MLUVsZW1lbnRzLm1kIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNDQ3OSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MzAxNDU1MDV9.x8HO1Pvj0kKDjVe4yiwtGepkeebd2jjlQSl8TGWBlQE
 
 Cheatsheet:https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstQ0QwMTAxRU4tU2tpbGxzTmV0d29yay9DaGVhdHNoZWV0cy9DMk0yJTIwY2hlYXRzaGVldCUyMHYxLjIubWQiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImF0bGFzX2ZpbGVfaWQiOjI0NDcyLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTczMDE0NTQ0Nn0.yHd6I2zR1ePA1auh4Ilxy7CiTmbENYNQhFd2Mq7AySs
+
+to add links, anchor element <a></a>, attribute href, hyperetxt reference, target=_blank", so your link can open in a new window
+
+Linking to relative page: <a href="./contact.html">Contact</a> ; The ./ in ./index.html tells the browser to look for the file in the current folder.
+
+Linking At Will: Link on images <a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/></a>
+
+Linking to Same Page: The target link is a string containing the # character and the target element’s id.
+<ol>
+ <li><a href="#top">Top</a></li>
+ <li><a href="#bottom">Bottom</a></li>
+</ol>
+
+Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
+
+Comments begin with <!-- and end with -->. Any characters in between will be ignored by your browser., eg;<!-- This is a comment that the browser will not display. -->
+
+List of html tags: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+Cheatsheet:https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet ; https://developer.mozilla.org/en-US/docs/Web/HTML/Element
